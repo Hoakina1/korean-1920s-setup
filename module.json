@@ -1,0 +1,20 @@
+{
+  "name": "korean-1920s-setup",
+  "title": "Korean 1920s Setup for CoC7 Wizard",
+  "description": "한글로 번역된 크툴루의 부름 7판 Investigator Wizard용 1920년대 캐릭터 셋업을 추가합니다.",
+  "version": "1.0.0",
+  "minimumCoreVersion": "10",
+  "compatibleCoreVersion": "11",
+  "author": "YourName",
+  "packs": [
+    {
+      "name": "korean-1920s-setup",
+      "label": "1920년대 셋업 (한글)",
+      "path": "packs/korean-1920s-setup.db",
+      "type": "Item",
+      "system": "CoC7"
+    }
+  ],
+  "manifest": "https://yourusername.github.io/korean-1920s-setup/module.json",
+  "download": "https://github.com/yourusername/korean-1920s-setup/archive/refs/heads/main.zip"
+}
