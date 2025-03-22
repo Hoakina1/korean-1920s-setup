@@ -1,0 +1,68 @@
+@font-face {
+     font-family: 'KOMACON';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/KOMACON.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+    font-family: 'MapoAgape';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoAgapeA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HangeulNuri-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/HangeulNuri-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GyeonggiTitleM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiTitleM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Eoe_Zno_L';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/Eoe_Zno_L.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+     font-family: 'locus_sangsang';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/locus_sangsang.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+.coc7.sheet .cash textarea,
+.coc7.sheet .sheet-header,
+.coc7.sheet .sheet-tabs,
+.coc7.chat-card .card-header h3,
+.worldbuilding.chat-card .card-header h3{
+	font-family: 'KOMACON';
+}
+.coc7 .form-header,
+.coc7.sheet .inventory-list .inventory-header h3,
+.coc7.sheet.actor .sheet-section h3,
+.tab-name span {
+	font-family: 'locus_sangsang';
+}
+#chat-log .card-header,
+.defaultFont,
+.sheetV2{
+	font-family: 'Eoe_Zno_L';
+}
+#chat-log .message,
+.cursive,
+.sheetV2.character form .container .sheet-header .characteristics .char-box .charac-score,
+.sheetV2.character form .container .sheet-header .characteristics input,
+.sheetV2.character form .container .sheet-body .itemV2 .item-name,
+.sheetV2.character form .container .sheet-body .itemV2 .item-score{
+	font-family: 'NEXON Lv1 Gothic OTF';
+}
