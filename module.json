@@ -1,25 +1,54 @@
 {
-	"name": "CoC7kr",
-	"title": "Translation: Korean [The Call of Cthulhu 7th edition]",
-	"description": "<p>크툴루의 부름 7판 한국어화</p>",
-	"version": "1.0.1",
-	"minimumCoreVersion" : "0.7.7",
-	"compatibleCoreVersion": "1.0.0",
-	"author": "mrkb",
-	"esmodules": [
-	"babele-register.js"
-	],
-	"scripts": [],
-	"styles": ["style.css"],
-	"packs": [],
-	"languages": [
-	{
+  "name": "korean-coc7-wizard-module",
+  "title": "Korean CoC7 Wizard Module",
+  "description": "Adds Korean-language content for CoC7 Investigator Wizard",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "Hoakina1"
+    }
+  ],
+  "esmodules": [
+    "babele-register.js"
+  ],
+  "styles": [
+    "style.css"
+  ],
+  "packs": [
+    {
+      "name": "korean-skills",
+      "label": "한글 기술 모음",
+      "path": "packs/korean-skills.db",
+      "type": "Item",
+      "system": "CoC7"
+    },
+    {
+      "name": "korean-occupations",
+      "label": "한글 직업 모음",
+      "path": "packs/korean-occupations.db",
+      "type": "Item",
+      "system": "CoC7"
+    },
+    {
+      "name": "korean-1920s-setup",
+      "label": "한글 1920년대 셋업",
+      "path": "packs/korean-1920s-setup.db",
+      "type": "Item",
+      "system": "CoC7"
+    }
+  ],
+  "languages": [
+    {
       "lang": "ko",
-      "name": "한국어(Korean)",
+      "name": "한국어 (Korean)",
       "path": "ko.json"
     }
-	],
-	"url": "https://github.com/MaronKB/CoC7kr",
-	"manifest": "https://raw.githubusercontent.com/MaronKB/CoC7kr/main/module.json",
-	"download": "https://github.com/MaronKB/CoC7kr/archive/main.zip"
+  ],
+  "manifest": "https://yourdomain.com/module.json",
+  "download": "https://yourdomain.com/module.zip",
+  "url": "https://yourdomain.com"
 }
