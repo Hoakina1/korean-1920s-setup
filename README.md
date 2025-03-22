@@ -12,7 +12,7 @@
 2. **모듈 설치** → "메니페스트 URL"에 아래 주소 입력:
 
 ```
-https://yourusername.github.io/korean-1920s-setup/module.json
+https://Hoakina1.github.io/korean-1920s-setup/module.json
 ```
 
 3. 모듈 설치 후, **활성화**
@@ -37,7 +37,7 @@ korean-1920s-setup/
 
 ## 👤 제작자
 - 이름: 당신의 이름
-- GitHub: [yourusername](https://github.com/yourusername)
+- GitHub: [Hoakina1](https://github.com/yourusername)
 
 ## 📜 라이선스
 본 프로젝트는 Chaosium Inc.의 팬 제작 콘텐츠 정책을 따릅니다. 상업적 용도로 사용할 수 없습니다.
